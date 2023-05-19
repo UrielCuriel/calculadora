@@ -65,4 +65,40 @@ const calculadora = new Calculadora();
 const resultado = calculadora.restar(1, 2);
 ```
 
+## Japanese
+
+# 電卓
+
+## プロジェクトの説明
+
+このプロジェクトは、電卓の基本的な操作である加算、減算、乗算、除算を実行できる電卓です。さらに、小数点や負の数を使った演算も可能です。
+
+## ソリューションの説明
+
+ソリューションは、TypeScriptとnode jsのプログラミング言語を使用して作成されており、node jsのネイティブライブラリのみを使用しています。
+
+## 使用例
+
+### 加算
+
+```TypeScript
+import { Calculadora } from "./calculadora";
+
+const calculadora = new Calculadora();
+
+const resultado = calculadora.sumar(1, 2);
+```
+
+### 減算
+
+```TypeScript
+import { Calculadora } from "./calculadora";
+
+const calculadora = new Calculadora();
+
+const resultado = calculadora.restar(1, 2);
+```
+
+
+
 
